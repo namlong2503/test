@@ -1,0 +1,316 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*--menu--*/
+.menu{
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000px;
+}
+.logo{
+    background-color: #fff;
+    margin-top: 5px;
+}
+.logo input{
+    border: 0px solid;
+    background-color: #fff;;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20%;
+    color: #000;
+}
+.menu-header{
+    background-color: #fff;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.hotline{
+    margin-left: 15%;
+}
+.menu ul {
+    list-style-type: none;
+    text-align: center;
+  }
+.menu ul {
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+  }
+.menu ul li{
+    color: #f1f1f1;
+    display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+.menu ul li a{
+    text-transform: uppercase;
+    white-space: nowrap; 
+    display: block;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-size: 14px;
+  }
+.menu a:hover{
+    color: darkgreen;
+}
+.animate-fading{
+    margin-left: 20%;
+    width: 50px;
+    height: 50px;
+    animation:fading 5s infinite
+}
+.btn{
+    color: darkgreen;
+    border-color: darkgreen;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    width: 75px;
+}
+.btn:hover{
+    color: darkgreen;
+}
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.menu-header img{
+    width: 30px;
+    height: 30px;
+}
+/*--header--*/
+.header{
+    margin-top: 130px;
+}
+.header img{
+    width: 1580px;
+}
+.slide {
+    display:none; 
+    width:100%;
+}
+.button-left{
+    left:1%; 
+    font-size:20px;
+}
+.button-right{
+    right:1%; 
+    font-size:20px;
+}
+.image-button{
+    border:none;
+    display:inline-block;
+    padding:10px;
+    height:50px;
+    vertical-align:middle;
+    overflow:hidden;
+    color:#fff;
+    background:#000;
+    position:absolute;
+    top:calc(50% - 25px);
+    opacity:0.5;
+    }
+.image-button:hover{
+    color:#000;
+    background-color:#ccc;
+}
+.display-container{
+    position:relative
+}
+/*--content--*/
+.content{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.content a{
+    border-style: thin;
+    border-radius: 0.5px;
+    text-decoration: none;
+    color: darkgreen;
+}
+.content-1{
+    margin-top: 50px;
+    height: 600px;
+}
+.content-1 img{
+    max-width: 530px;
+    float: left;
+}
+.content-1 h2{
+    margin-top: 8%;
+    max-width: 500px;
+    float: right;
+}
+.content-1 p{
+    max-width: 500px;
+    float: right;
+    line-height: 1.4;
+}
+.content-2{
+    height: 500px;
+}
+.content-2-left{
+    margin-top: 8%;
+    width: 530px;
+    float: left;
+}
+.content-2-right{
+    float: left;
+    margin-left: 5%;
+}
+.content-2-right img{
+    max-height: 500px;
+}
+.xemthem{
+    width: 100px;
+    height: 40px;
+    margin-left: 6%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darkgreen;
+    color: darkgreen;
+    background-color: #fff;
+}
+.xemthem:hover{
+    color: #fff;
+    background-color: darkgreen;
+    transition: 0.5s;
+}
+.gianhap{
+    width: 250px;
+    height: 40px;
+    margin-left: 0%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darkgreen;
+    color: darkgreen;
+    background-color: #fff;
+}
+.gianhap:hover{
+    color: #fff;
+    background-color: darkgreen;
+    transition: 0.5s;
+}
+/*system*/
+.system{
+    background-color: darkgreen;
+    color: #fff;
+    padding-left: 5%;
+    padding-top: 7%;
+    height: 500px;
+}
+.cboTinh{
+    border: 1px solid;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    background-color: darkgreen;
+    height: 30px;
+    width: 170px;
+}
+.listCH{
+    height: 320px;
+    width: 700px;
+    background-color: darkgreen;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0px;
+}
+/*footer*/
+.address{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 13%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.email{
+    padding-left: 8%;
+    line-height: 1.4;
+}
+.nhap{
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    border-color: darkgreen;
+    background-color: white;
+    height: 30px;
+    width: 170px;
+}
+.submit{
+    border: 1px solid;
+    border-radius: 5px;
+    color: black;
+    border-color: darkgreen;
+    background-color: white;
+    height: 30px;
+    width: 50px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    padding-left: 20px;
+    color: #ccc;   
+}
+
+/*copyright*/
+.copyright{
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    width: 100%;
+    font-size: 12px;
+    z-index: -1000000px;
+    text-align: center;
+}
+/*Form Login*/
+.noi-dung{
+    margin-top: 15%;
+    margin-left: 40%;
+    height: 320px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-form{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.input-form2{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 15px;
+    background-color: darkgreen;
+    color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.hello{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-login{
+    width: 100px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+}
+.close{
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: #fff;
+    border-color: #fff;
+}
